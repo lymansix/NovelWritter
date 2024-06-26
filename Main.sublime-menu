@@ -3,7 +3,7 @@
         "id": "tools",
         "children":
         [{
-            "caption": "Chinese words count",
+            "caption": "Chinese Words Count",
             "id": "chinese_word_count",
             "command": "chinese_word_count"
         }]
@@ -15,7 +15,7 @@
             "id": "package-settings", 
             "children":
             [{
-                "caption": "Chinese words count", 
+                "caption": "Chinese Words Count", 
                 "children":
                 [{
                     "caption": "Default", 
