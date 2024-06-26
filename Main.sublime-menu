@@ -1,0 +1,33 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "Chinese words count",
+            "id": "chinese_word_count",
+            "command": "chinese_word_count"
+        }]
+    },
+    {
+        "id": "preferences", 
+        "children":
+        [{
+            "id": "package-settings", 
+            "children":
+            [{
+                "caption": "Chinese words count", 
+                "children":
+                [{
+                    "caption": "Default", 
+                    "args": { "file": "${packages}/chineseWordCounter/chineseWordCount.sublime-settings" },
+                    "command": "open_file"
+                },
+                {
+                    "caption": "Custom",
+                    "args": { "file": "${packages}/User/chineseWordCount.sublime-settings" },
+                    "command": "open_file"
+                }]
+            }]
+        }]
+    }
+]
