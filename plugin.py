@@ -71,8 +71,8 @@ Word count for %s
 
 words:\t\t\t\t\t\t%d
 chinese words:\t\t\t\t\t%d
-Characters (ignoring whitespace):\t%d
-Characters (with whitespace):\t%d
+Characters (ignoring whitespace):\t\t\t%d
+Characters (with whitespace):\t\t\t\t%d
 sections:\t\t\t\t\t\t%d
 
 %s''' % (scope, words, chinesewords, chars, total_chars, sections, language))   
